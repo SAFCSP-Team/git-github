@@ -6,15 +6,16 @@
 ## What is a Remote Repository
 A **remote repository** is a version of your project hosted on the internet or a network server. 
 
-**Remote repositories let you:**
+**Remote repositories provide us with:**
 - Cloud storage for your code.
 - Collaboration tools.
 - Project management features.
   
 >[!IMPORTANT]
-> In Git, a `remote` is a local name (like origin or upstream) that references to a version of your repository elsewhere, and you can work with multiple remotes for collaboration or backup, while a `remote repository` is a version of your project hosted on the internet.
+> In Git, a `remote` is a name that references a version of your repository elsewhere (mostly hosted on one of the Git platforms). 
+> And you can work with multiple remotes for collaboration or backup.
 
-#### Popular Git hosting services:
+#### Popular Git hosting platforms:
 - [GitHub](https://github.com/) (most popular)
 - [GitLab](https://gitlab.com/)
 - [Bitbucket](https://bitbucket.org/)
@@ -62,7 +63,7 @@ git config --global user.email "your@email.com"
 
 **3. Add Files and Commit**
 
-Stages and saves your changes with a message.
+Stage and save your changes with a message.
 ```
 git add <file>
 git commit -m "Commit message"
