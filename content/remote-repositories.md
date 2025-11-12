@@ -83,7 +83,7 @@ Example:
 ```
 git clone https://github.com/username/repository.git
 ```
-This creates a new folder with the project files and full version history. It also sets up a remote-tracking branch for the cloned repository.
+This creates a folder with the project files and full version history. It also sets up a remote-tracking branch for the cloned repository.
 ### Fetch Changes from Remote 
 Update your local copy of the remote’s history:
 ```
