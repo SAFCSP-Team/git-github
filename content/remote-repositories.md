@@ -6,11 +6,13 @@
 ## What is a Remote Repository
 A **remote repository** is a version of your project hosted on the internet or a network server. 
 
+<img width="2763" height="1484" alt="Artboard 4" src="https://github.com/user-attachments/assets/9ce86a5f-e97d-4dd7-8547-f42e602a2cba" />
+
 **Remote repositories provide us with:**
 - Cloud storage for your code.
 - Collaboration tools.
 - Project management features.
-  
+
 >[!IMPORTANT]
 > In Git, a `remote` is a name that references a version of your repository elsewhere (mostly hosted on one of the Git platforms). 
 > And you can work with multiple remotes for collaboration or backup.
@@ -29,6 +31,9 @@ A **remote repository** is a version of your project hosted on the internet or a
 - Log in to GitHub.
 - Click the **+** icon (top right) → **New repository**.
 <img width="387" height="782" alt="Screenshot 1447-05-20 at 1 30 17 PM" src="https://github.com/user-attachments/assets/d8f8ae42-ccff-4d42-a095-1821298a5e8f" />
+<br>
+<br>
+<img width="910" height="782" alt="Screenshot 1447-05-20 at 1 30 56 PM" src="https://github.com/user-attachments/assets/9b095af1-66fe-4a94-aa13-435ebd27969a" />
 
 - Enter a **repository name** (e.g., `my-project`).
 - Add a **description** (optional but helpful).
@@ -48,6 +53,8 @@ When you create a repository on GitHub, you’ll get a URL (HTTPS or SSH) that y
 **2. Add the Remote**
 
 Link your local repository to the remote repository:
+<img width="2763" height="1484" alt="Artboard 10" src="https://github.com/user-attachments/assets/a63c50a4-d28d-4b83-8e95-2c693008e7bf" />
+
 ```
 git remote add <name> <url>
 ```
@@ -60,6 +67,9 @@ git remote add origin https://github.com/yourusername/my-project.git
 **3. Push your Local Commits to GitHub**
 
 Upload your code to the remote repository:
+
+<img width="2763" height="1484" alt="Artboard 11" src="https://github.com/user-attachments/assets/30872695-9643-40d0-9ae7-278ef83d232e" />
+
 ```
 git push <remote> <branch>
 ```
@@ -72,20 +82,12 @@ git push origin main
 >
 > `-u` sets `origin/main` as the default upstream branch for `main`.
 
-## Get Files from a Remote Repository
-
-### Clone a Repository (Copy Remote Repository Locally)
-Download an entire remote repository:
-```
-git clone <url>
-```
-Example:
-```
-git clone https://github.com/username/repository.git
-```
-This creates a folder with the project files and full version history. It also sets up a remote-tracking branch for the cloned repository.
+## Get the Updates from a Remote Repository
 ### Fetch Changes from Remote 
 Update your local copy of the remote’s history:
+
+<img width="2763" height="1484" alt="Artboard 13" src="https://github.com/user-attachments/assets/edb3f2dc-a88f-42ca-b639-5da4d355cbbb" />
+
 ```
 git fetch <remote>
 ```
@@ -97,6 +99,10 @@ This downloads new commits, but does **not** merge them into your working branch
 
 ### Pull Changes from Remote 
 Update your local copy with remote changes:
+
+<img width="2763" height="1484" alt="Artboard 12" src="https://github.com/user-attachments/assets/ea8e37ae-7225-4f8e-a300-9a34b52822b9" />
+
+
 ```
 git pull <remote> <branch>
 ```
@@ -106,6 +112,19 @@ git pull origin main
 ```
 This is shorthand for `git fetch` followed by `git merge`.
 
+<img width="2763" height="1484" alt="Artboard 14" src="https://github.com/user-attachments/assets/a923b6af-7321-4b23-b830-7efa6f131f67" />
+
+
+## Clone a Repository
+Cloning a repository involves copying all the repository’s data to your local machine, including the entire history and all branches.
+```
+git clone <url>
+```
+Example:
+```
+git clone https://github.com/username/repository.git
+```
+This creates a folder with the entire remote repository and full version history. It also sets up a remote-tracking branch called origin for the cloned repository.
 ## Working with the Remotes
 
 ### List all Remotes
