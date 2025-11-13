@@ -47,7 +47,7 @@ A **remote repository** is a version of your project hosted on the internet or a
 You can connect any local repository to a remote repository.
 
 > [!IMPORTANT]
-> If you haven't initialized your local project as a Git repository, you should run: `git init`
+> You need to run `git init` to set up your local project as a Git repository before connecting it to a remote repository.
 
 **1. Get the Remote URL from GitHub**
 
