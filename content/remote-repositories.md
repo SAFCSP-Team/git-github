@@ -139,7 +139,8 @@ This is shorthand for `git fetch` followed by `git merge`.
 <img width="2763" height="1484" alt="Artboard 14" src="https://github.com/user-attachments/assets/a923b6af-7321-4b23-b830-7efa6f131f67" />
 
 ## Clone a Repository
-Cloning a repository involves copying all the repository’s data to your local machine, including the entire history and all branches.
+Imagine the opposite case of having a local repository hosted on Github, which is the case where you have a remote repository hosted on GitHub, but you don't have it locally on your device. Copying a remote repository locally can be achieved by using the `git clone` command. Cloning a repository involves copying all the repository’s data to your local machine, including the entire history and all branches.
+
 ```
 git clone <url>
 ```
@@ -153,7 +154,8 @@ After cloning, you can verify the remote configuration with:
 ```
 git remote -v
 ```
-You should see origin listed and pointing to the cloned repository’s URL.
+You should see origin listed and pointing to the cloned repository’s URL, which means cloning a remote repository will by default create a remote pointing to the remote repository for syncing the updates later on so you don't have to create your remote manually.
+
 ## Working with the Remotes
 
 ### Get Detailed Information about a Remote
