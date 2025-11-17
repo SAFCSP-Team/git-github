@@ -30,7 +30,8 @@ A **remote repository** is a version of your project hosted on the internet or a
 ### Create a New Repository on GitHub
 - Log in to GitHub.
 - Click the **+** icon (top right) → **New repository**.
-<img width="387" height="782" alt="Screenshot 1447-05-20 at 1 30 17 PM" src="https://github.com/user-attachments/assets/d8f8ae42-ccff-4d42-a095-1821298a5e8f" />
+<img width="792" height="156" alt="Screenshot 2025-11-17 at 12 55 41 PM" src="https://github.com/user-attachments/assets/7a58a179-4d24-4e05-84d4-0675891a5583" />
+
 <br>
 <br>
 <img width="910" height="782" alt="Screenshot 1447-05-20 at 1 30 56 PM" src="https://github.com/user-attachments/assets/9b095af1-66fe-4a94-aa13-435ebd27969a" />
