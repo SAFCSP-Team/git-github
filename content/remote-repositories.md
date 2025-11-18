@@ -60,7 +60,6 @@ When you create a repository on GitHub, you’ll get a URL (HTTPS or SSH) that y
 **2. Add the Remote**
 
 Link your local repository to the remote repository:
-<img width="2763" height="1484" alt="Artboard 10" src="https://github.com/user-attachments/assets/a63c50a4-d28d-4b83-8e95-2c693008e7bf" />
 <img width="2763" height="1484" alt="Artboard 4" src="https://github.com/SAFCSP-Team/git-github/blob/main/content/images/git2.jpg" />
 
 ```
@@ -98,7 +97,8 @@ origin  https://github.com/username/my-project.git (push)
 
 Upload your code to the remote repository:
 
-<img width="2763" height="1484" alt="Artboard 11" src="https://github.com/user-attachments/assets/30872695-9643-40d0-9ae7-278ef83d232e" />
+<img width="2763" height="1484" alt="Artboard 4" src="https://github.com/SAFCSP-Team/git-github/blob/main/content/images/git3.jpg" />
+
 
 ```
 git push <remote> <branch>
