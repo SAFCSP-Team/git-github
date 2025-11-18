@@ -61,6 +61,8 @@ When you create a repository on GitHub, you’ll get a URL (HTTPS or SSH) that y
 
 Link your local repository to the remote repository:
 <img width="2763" height="1484" alt="Artboard 10" src="https://github.com/user-attachments/assets/a63c50a4-d28d-4b83-8e95-2c693008e7bf" />
+<img width="2763" height="1484" alt="Artboard 4" src="https://github.com/SAFCSP-Team/git-github/blob/main/content/images/git2.jpg" />
+
 ```
 git remote add <name> <url>
 ```
