@@ -116,7 +116,8 @@ git push origin main
 ### Fetch Changes from Remote 
 Downloads changes from the remote repository to your local repository:
 
-<img width="2763" height="1484" alt="Artboard 13 (1)" src="https://github.com/user-attachments/assets/6050474a-6e9b-4c35-a535-792966dd2b5c" />
+<img width="2763" height="1484" alt="Artboard 4" src="https://github.com/SAFCSP-Team/git-github/blob/main/content/images/git5.jpg" />
+
 
 ```
 git fetch <remote>
