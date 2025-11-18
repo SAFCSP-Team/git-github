@@ -6,7 +6,9 @@
 ## What is a Remote Repository
 A **remote repository** is a version of your project hosted on the internet or a network server. 
 
-<img width="2763" height="1484" alt="Artboard 4" src="https://github.com/user-attachments/assets/9ce86a5f-e97d-4dd7-8547-f42e602a2cba" />
+<img width="2763" height="1484" alt="Artboard 4" src="https://github.com/SAFCSP-Team/git-github/blob/main/content/images/git1.jpg" />
+
+
 
 **Remote repositories provide us with:**
 - Cloud storage for your code.
