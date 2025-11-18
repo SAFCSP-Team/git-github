@@ -131,7 +131,6 @@ This downloads new commits, but does **not** merge them into your working branch
 ### Pull Changes from Remote 
 Downloads changes from the remote repository and automatically merges them into your current local branch:
 
-<img width="2763" height="1484" alt="Artboard 12 (1)" src="https://github.com/user-attachments/assets/751b29b1-303b-4e5d-9df4-8f311a432f84" />
 <img width="2763" height="1484" alt="Artboard 4" src="https://github.com/SAFCSP-Team/git-github/blob/main/content/images/git4.jpg" />
 
 
