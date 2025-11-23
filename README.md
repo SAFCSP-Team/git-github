@@ -15,14 +15,8 @@ By the end of this course, you will be able to,
 
 ## Table of Contents
 1. [Introduction to Version Control System]()
-2. [Introduction to git]()
-3. [Basic Git Commands]()
-4. [Working with Files]()
-5. [Committing Changes]()
-6. [Working with Branches]()
-7. [Undoing Changes]()
+2. [Basic Git Commands]()
 3. [Remote Repository]()
-4. [Working with Remote Repo]()
-5. [Collaboration]()
+4. [Collaboration]()
 
    
