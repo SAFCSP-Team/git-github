@@ -14,9 +14,9 @@ By the end of this course, you will be able to,
 - Collaborate with others on projects.
 
 ## Table of Contents
-1. [Introduction to Version Control System]()
-2. [Basic Git Commands]()
-3. [Remote Repository]()
+1. [Introduction to Version Control Systems](https://github.com/SAFCSP-Team/git-github/blob/main/content/01.introduction.md)
+2. [Basic Git Commands](https://github.com/SAFCSP-Team/git-github/blob/main/content/02.git-commands.md)
+3. [Remote Repository](https://github.com/SAFCSP-Team/git-github/blob/main/content/03.remote-repositories.md)
 4. [Collaboration]()
 
    
