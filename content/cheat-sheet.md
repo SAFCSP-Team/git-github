@@ -72,4 +72,3 @@
 |                              | `git pull`                                    | Alternate way to fetch and merge changes.                                             |
 | **Configure Git**            | `git config user.name 'Your Name'`            | Set your Git username.                                                              |
 |                              | `git config --global ...`                     | Set configuration options globally.                                                   |
-|                              | `man git-config`                              | See all possible configuration options.                                               |
