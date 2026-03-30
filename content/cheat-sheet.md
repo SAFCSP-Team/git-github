@@ -1,6 +1,6 @@
 
 
-**In this markdown, you can find the Git Cheat Sheet:**
+In this markdown, you can find the Git Cheat Sheet:
 
 
 
@@ -48,27 +48,27 @@
 |                              | `git reflog BRANCHNAME`                       | Undo a failed rebase using the reflog.                                                 |
 |                              | `git reset --hard <commit>`                   | Reset to a specific commit, discarding changes.                                        |
 |                              | `git commit --amend`                          | Change a commit message or add files to the last commit.                               |
-| **Code Archaeology**             | `git log main`                                | Show the commit log of the main branch.                                                |
-|                              | `git log --graph main`                        | Show a graphical representation of commit history.                                     |
+| **Code Archaeology**             | `git log main`                                | Show the commit log of the main branch.                                           |
+|                              | `git log --graph main`                        | Show a graphical representation of commit history.                                    |
 |                              | `git log --oneline`                           | Show a one-line summary of commits.                                                   |
 |                              | `git log <file>`                              | Show all commits that modified a file.                                                |
 |                              | `git log --follow <file>`                     | Show commits that modified a file, including before it was renamed.                   |
-|                              | `git log -G <text>`                           | Find commits that added or removed specific text.                                      |
+|                              | `git log -G <text>`                           | Find commits that added or removed specific text.                                     |
 |                              | `git blame <file>`                            | Show who last changed each line of a file.                                            |
-| **Combine Diverged Branches**    | `git rebase main`                             | Rebase one branch onto another.                                                       |
-|                              | `git merge <branch>`                          | Merge another branch into the current branch.                                          |
+| **Combine Diverged Branches**    | `git rebase main`                             | Rebase one branch onto another.                                                   |
+|                              | `git merge <branch>`                          | Merge another branch into the current branch.                                         |
 |                              | `git cherry-pick <commit>`                    | Copy one commit to the current branch.                                                |
-| **Restore an Old File**      | `git checkout <commit> <file>`                | Get the version of a file from another commit.                                    |
+| **Restore an Old File**      | `git checkout <commit> <file>`                | Get the version of a file from another commit.                                        |
 |                              | `git restore <file> --source <commit>`        | Alternate way to restore a file from another commit.                                  |
-| **Add a Remote**             | `git remote add <name> <url>`                 | Add a remote repository.                                                          |
-| **Push Your Changes**        | `git push origin main`                        | Push the main branch to the remote origin.                                        |
+| **Add a Remote**             | `git remote add <name> <url>`                 | Add a remote repository.                                                              |
+| **Push Your Changes**        | `git push origin main`                        | Push the main branch to the remote origin.                                            |
 |                              | `git push`                                    | Push the current branch to its tracking branch.                                       |
 |                              | `git push -u origin <name>`                   | Push a branch and set it to track a remote branch.                                    |
 |                              | `git push --force-with-lease`                 | Force push with additional safety checks.                                             |
 |                              | `git push --tags`                             | Push tags to the remote repository.                                                   |
-| **Pull Changes**             | `git fetch origin main`                       | Fetch changes without applying them.                                              |
+| **Pull Changes**             | `git fetch origin main`                       | Fetch changes without applying them.                                                  |
 |                              | `git pull --rebase`                           | Fetch changes and reapply your commits on top.                                        |
 |                              | `git pull origin main`                        | Fetch and merge changes into the current branch.                                      |
 |                              | `git pull`                                    | Alternate way to fetch and merge changes.                                             |
-| **Configure Git**            | `git config user.name 'Your Name'`            | Set your Git username.                                                              |
+| **Configure Git**            | `git config user.name 'Your Name'`            | Set your Git username.                                                                |
 |                              | `git config --global ...`                     | Set configuration options globally.                                                   |
