@@ -4,10 +4,10 @@
 
 
 
-| Functionality             | Git Command                                  | Explanation                                                                        |
-|------------------------------|-----------------------------------------------|-----------------------------------------------------------------------------------------|
+| Functionality             | Git Command                                  | Description                       |
+|------------------------------|------------------------------------------|-----------------------------------------|
 | **Getting Started**          | `git init`                                | Start a new repository.                                                                 |
-|                              | `git clone <url>`                             | Clone an existing repository.                                                          |
+|                              | `git ingit clone <url>`                             | Clone an existing repository.                                                          |
 | **Prepare to Commit**        | `git add <file>`                          | Add an untracked file or unstaged changes.                                            |
 |                              | `git add .`                                   | Add all untracked files and changes.                                                   |
 |                              | `git add -p`                                  | Choose which parts of a file to stage interactively.                                    |
